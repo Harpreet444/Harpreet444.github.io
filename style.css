@@ -42,13 +42,17 @@ body{
     cursor: pointer;
     transition: 0.3s ease;
 }
+/* #ffa42e */
+:root {
+    --mycolour: #ffa42e;
+}
 
 .logo:hover{
     transform: scale(1.1);
 }
 
 span{
-    color: #ff154c;
+    color: #ffa42e;
 }
 
 .navbar a{
@@ -61,13 +65,13 @@ span{
 
 .navbar a:hover,
 .navbar a.active{
-    color: #ff154c;
-    border-bottom: 3px solid #ff154c;
+    color: #ffa42e;
+    border-bottom: 3px solid #ffa42e;
 }
 
 #menu-icon{
     font-size: 3.6rem;
-    color: #ff154c;
+    color: #ffa42e;
     display: none;
 }
 
@@ -86,7 +90,7 @@ section{
 
 .home-circle-1{
     position: absolute;
-    background-color: #ff154c;
+    background-color: #ffa42e;
     border-radius: 50%;
     height: 30vw;
     width: 30vw;
@@ -97,7 +101,7 @@ section{
 
 .home-circle-2{
     position: absolute;
-    background-color: #ff154c;
+    background-color: #ffa42e;
     border-radius: 50%;
     width: 25vw;
     height: 25vw;
@@ -127,7 +131,7 @@ section{
     display: grid;
     place-items: center;
     border-radius: 50%;
-    border: 20px solid #ff154c;
+    border: 20px solid #ffa42e;
 }
 
 .home-img img{
@@ -153,15 +157,15 @@ section{
     height: 4.5rem;
     background: transparent ;
     font-size: 2.5rem;
-    border: 0.2rem solid #ff154c;
+    border: 0.2rem solid #ffa42e;
     border-radius: 50% ;
-    color: #ff154c;
+    color: #ffa42e;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
 }
 
 .social-icons a:hover{
-    background: #ff154c;
+    background: #ffa42e;
     color: white;
     transform: scale(1.3)translateY(-5px);
 }
@@ -169,7 +173,7 @@ section{
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: #ff154c;
+    background: #ffa42e;
     border-radius: 4rem;
     font-size: 1.6rem;
     color: white;
@@ -182,8 +186,8 @@ section{
 
 .btn:hover{
     background: transparent;
-    color: #ff154c;
-    border: 2px solid #ff154c;
+    color: #ffa42e;
+    border: 2px solid #ffa42e;
     transform: scale(1.05);
 }
  
@@ -203,7 +207,7 @@ section{
     height: 40vw;
     width: 40vw;
     border-radius: 50%;
-    background-color: #ff154c;
+    background-color: #ffa42e;
 
 }
 
@@ -211,7 +215,7 @@ section{
     border-radius: 50%;
     display: grid;
     place-items: center;
-    border: 20px solid #ff154c;
+    border: 20px solid #ffa42e;
 }
 
 .about-img img{
@@ -266,7 +270,7 @@ section{
     position: absolute;
     width: 5px;
     height: 100%;
-    background-color: #ff154c;
+    background-color: #ffa42e;
     left: calc(50% - 1px);
 }
 
@@ -292,7 +296,7 @@ section{
 .timeline-dot{
     height:21px ;
     width: 21px ;
-    background-color: #ff154c;
+    background-color: #ffa42e;
     position: absolute;
     left: calc(50% - 8px);
     border-radius: 50%;
@@ -308,7 +312,7 @@ section{
 
 
 .timeline-content{
-    background-color: #ff154c;
+    background-color: #ffa42e;
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255,255,255,0.25);
     padding: 30px;
@@ -367,7 +371,7 @@ section{
 }
 
 .service-container .services-box:hover{
-    border-color: #ff154c;
+    border-color: #ffa42e;
     transform: scale(1.02);
     background-color: white;
     color: black;
@@ -376,7 +380,7 @@ section{
 .services-box i{
     font-size: 7rem;
     margin-bottom: 2rem;
-    color: #ff154c;
+    color: #ffa42e;
 }
 
 .services-box h3{
@@ -395,7 +399,7 @@ section{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #ff154c;
+    background-color: #ffa42e;
 }
 
 
@@ -434,7 +438,7 @@ section{
     color: black;
     background: #fcfcfc;
     border-radius: 0.8rem;
-    border: 2px solid #ff154c;
+    border: 2px solid #ffa42e;
     margin: 1rem 0;
     resize: none;
 }
@@ -448,7 +452,7 @@ footer{
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: #ff154c;
+    background-color: #ffa42e;
 }
 
 .footer .social{
@@ -474,7 +478,7 @@ footer .social a{
 footer .social a:hover{
     transform: scale(1.2) translateY( -10px);
     background-color: white;
-    color: #ff154c;
+    color: #ffa42e;
 }
 
 .footer ul{
@@ -546,8 +550,8 @@ footer .social a:hover{
         width: auto;
         padding: 1rem 1rem;
         background: white;
-        border-left:  2px solid #ff154c;
-        border-bottom:  2px solid #ff154c;
+        border-left:  2px solid #ffa42e;
+        border-bottom:  2px solid #ffa42e;
         border-bottom-left-radius: 2rem;
         display: none;
 
@@ -596,7 +600,7 @@ footer .social a:hover{
     .home-img img{
         width: 70vw;
         margin-top: 4rem;
-        border: 25px solid #ff154c;
+        border: 25px solid #ffa42e;
     }
     .about{
         flex-direction: column-reverse;
@@ -618,7 +622,7 @@ footer .social a:hover{
         margin-top: 1rem;
         border: none;
         margin-bottom: 3rem;
-        border: 25px solid #ff154c;
+        border: 25px solid #ffa42e;
     }
 
     .services{

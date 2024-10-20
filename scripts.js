@@ -1,13 +1,9 @@
 var typed = new Typed(".typewriter-text",
     {
         strings: [" ",
-            "Web Developer",
+            " a Machine Learning Enthusiast",
 
-            " Designer",
-
-            "Freelancer",
-            
-            "Youtuber"
+            " Learning Data Analytics"
         ],
         typeSpeed: 100,
         backSpeed: 70,
