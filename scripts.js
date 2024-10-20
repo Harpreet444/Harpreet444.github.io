@@ -12,6 +12,7 @@ var typed = new Typed(".typewriter-text",
     }
 )
 
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
