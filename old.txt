@@ -1,2 +1,4 @@
 red: #ff154c
 yelloisg: #ffb938
+orange: #ffa42e
+browm: #8C2912
