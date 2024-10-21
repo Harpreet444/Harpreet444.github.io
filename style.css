@@ -80,6 +80,11 @@ section{
     padding: 10rem 9% 10rem;
 }
 
+.p{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
 .home{
     display: flex;
     justify-content: center;
@@ -147,14 +152,15 @@ section{
 }
 
 .certificate-info h3 {
-    font-size: 1.5rem;
-    margin: 10px 0;
+    font-size: 1.8rem;
+    /* margin: 2rem 0 3rem ; */
+    font-weight: 500;
 }
 
 .certificate-info p {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 15px;
+        font-size: 1.5rem;
+        /* margin: 2rem 0 3rem ; */
+        font-weight: 500;
 }
 
 .certificate-info .btn {
@@ -336,8 +342,9 @@ section{
 }
 
 .about-content p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 2rem 0 3rem ;
+    font-weight: 500;
 }
 
 .image-label {
@@ -349,7 +356,7 @@ section{
 }
 
 /* Responsive Adjustments */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .about {
         flex-direction: column;
         padding: 30px;
@@ -374,9 +381,11 @@ section{
     }
 
     .about-content p {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+        margin: 2rem 0 3rem ;
+        font-weight: 500;
     }
-} */
+}
 
 
 .timeline-section{
