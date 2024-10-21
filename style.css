@@ -173,10 +173,6 @@ section{
 
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
-    .certificates-content {
-        padding: 5px; /* Less padding for mobile */
-    }
-
     .certificates-grid {
         gap: 20px; /* Reduced gap between items */
     }
@@ -200,9 +196,6 @@ section{
 }
 
 @media screen and (max-width: 480px) {
-    .certificates-content {
-        padding: 10px; /* Minimal padding on very small screens */
-    }
 
     .certificate-info h3 {
         font-size: 1.2rem;
@@ -362,22 +355,22 @@ section{
         padding: 30px;
     }
 
-    /* .about-img {
+    .about-img {
         width: 50vw;
-    } */
+    }
 
     .heading {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 }
 
 @media screen and (max-width: 480px) {
-    /* .about-img {
+     .about-img {
         width: 80vw;
-    } */
+    }
 
     .heading {
-        font-size: 2.5rem;
+        font-size: 5rem;
     }
 
     .about-content p {
