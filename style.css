@@ -101,7 +101,7 @@ section{
 
 /* from */
 .certificates-content {
-    padding: 30px; /* Slightly reduced padding for smaller screens */
+    /* padding: 30px; Slightly reduced padding for smaller screens */
     text-align: center;
 }
 
@@ -174,7 +174,7 @@ section{
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
     .certificates-content {
-        padding: 15px; /* Less padding for mobile */
+        padding: 5px; /* Less padding for mobile */
     }
 
     .certificates-grid {
@@ -758,11 +758,10 @@ footer .social a:hover{
     }
 
     .about img{
-        width: 70vw;
-        margin-top: 1rem;
+        width: 100%;
+        /* margin-top: 1rem; */
         border: none;
-        margin-bottom: 3rem;
-        border: 25px solid #ffa42e;
+        /* margin-bottom: 3rem; */
     }
 
     .services{
