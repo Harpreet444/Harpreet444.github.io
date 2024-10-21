@@ -17,7 +17,7 @@ html{
 }
 
 body{
-    background: #fcfcfc;
+    background: #fcead2;
     color: black;
 }
 
@@ -98,6 +98,74 @@ section{
     right: 0;
     z-index: -1;
 }
+
+/* from */
+.certificates-content {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .certificates-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* For larger screens (2 columns) */
+  @media screen and (min-width: 768px) {
+    .certificates-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .certificate-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .certificate-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .certificate-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .certificate-info {
+    padding: 20px;
+  }
+  
+  .certificate-info h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .certificate-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .certificate-info .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .certificate-info .btn:hover {
+    background-color: #0056b3;
+  }
+  /* here */
 
 .home-circle-2{
     position: absolute;
