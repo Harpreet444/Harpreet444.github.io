@@ -349,7 +349,7 @@ section{
 }
 
 /* Responsive Adjustments */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .about {
         flex-direction: column;
         padding: 30px;
@@ -376,7 +376,7 @@ section{
     .about-content p {
         font-size: 1.4rem;
     }
-}
+} */
 
 
 .timeline-section{
