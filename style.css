@@ -355,6 +355,35 @@ section{
     color: #333;         /* Darker color for better visibility */
 }
 
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    /* .about-img {
+        width: 50vw;
+    } */
+
+    .heading {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* .about-img {
+        width: 80vw;
+    } */
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .about-content p {
+        font-size: 1.4rem;
+    }
+}
 
 
 .timeline-section{
