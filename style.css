@@ -101,58 +101,63 @@ section{
 
 /* from */
 .certificates-content {
-    padding: 50px;
+    padding: 30px; /* Slightly reduced padding for smaller screens */
     text-align: center;
-  }
-  
-  .certificates-grid {
+}
+
+/* Grid Layout */
+.certificates-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 35px;
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  /* For larger screens (2 columns) */
-  @media screen and (min-width: 768px) {
+    width: 100%; /* Ensures full width */
+}
+
+/* For larger screens (2 columns) */
+@media screen and (min-width: 768px) {
     .certificates-grid {
-      grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
-  }
-  
-  .certificate-card {
+}
+
+.certificate-card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s;
-  }
-  
-  .certificate-card:hover {
+    width: 100%; /* Ensures full width card */
+    margin: 0 auto; /* Centering the card */
+}
+
+.certificate-card:hover {
     transform: scale(1.05);
-  }
-  
-  .certificate-card img {
-    width: 100%;
+}
+
+.certificate-card img {
+    margin: 0; /* Remove margin for tighter layout */
+    width: 100%; /* Full width image */
     height: auto;
-  }
-  
-  .certificate-info {
+}
+
+.certificate-info {
     padding: 20px;
-  }
-  
-  .certificate-info h3 {
+}
+
+.certificate-info h3 {
     font-size: 1.5rem;
     margin: 10px 0;
-  }
-  
-  .certificate-info p {
+}
+
+.certificate-info p {
     font-size: 1rem;
     color: #555;
     margin-bottom: 15px;
-  }
-  
-  .certificate-info .btn {
+}
+
+.certificate-info .btn {
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -160,11 +165,59 @@ section{
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
-  }
-  
-  .certificate-info .btn:hover {
+}
+
+.certificate-info .btn:hover {
     background-color: #0056b3;
-  }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .certificates-content {
+        padding: 15px; /* Less padding for mobile */
+    }
+
+    .certificates-grid {
+        gap: 20px; /* Reduced gap between items */
+    }
+
+    .certificate-card img {
+        width: 100%; /* Fully responsive images */
+        height: auto;
+    }
+
+    .certificate-info h3 {
+        font-size: 1.3rem;
+    }
+
+    .certificate-info p {
+        font-size: 0.9rem;
+    }
+
+    .certificate-info .btn {
+        padding: 8px 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .certificates-content {
+        padding: 10px; /* Minimal padding on very small screens */
+    }
+
+    .certificate-info h3 {
+        font-size: 1.2rem;
+    }
+
+    .certificate-info p {
+        font-size: 0.85rem;
+    }
+
+    .certificate-info .btn {
+        padding: 6px 14px;
+    }
+}
+
+  
   /* here */
 
 .home-circle-2{
@@ -268,31 +321,11 @@ section{
 
 }
 
-.about-circle{
-    position: absolute;
-    left: -150px;
-    margin-top: 15rem;
-    height: 40vw;
-    width: 40vw;
-    border-radius: 50%;
-    background-color: #ffa42e;
-
-}
-
-.about-img{
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    border: 20px solid #ffa42e;
-}
-
-.about-img img{
-    position: relative;
-    width: 30vw;
-    border-radius: 50%;
-    border: 50px solid white;
+.about-img img {
+    width: 100%; /* Image fills container */
+    height: auto;
+    border: none; /* Remove white border */
     cursor: pointer;
-
 }
 
 .heading{
@@ -313,6 +346,16 @@ section{
     font-size: 1.6rem;
     margin: 2rem 0 3rem ;
 }
+
+.image-label {
+    margin-top: 10px;
+    font-size: 1.5rem;  /* Slightly bigger font size */
+    font-weight: bold;   /* Bold text */
+    text-align: center;  /* Ensure text is centered */
+    color: #333;         /* Darker color for better visibility */
+}
+
+
 
 .timeline-section{
     min-height: 100vh;
